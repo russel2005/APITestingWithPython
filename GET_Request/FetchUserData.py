@@ -7,7 +7,7 @@ url = "https://reqres.in/api/users/?page=2"
 response = requests.get(url)
 
 
-# Display Response Content
+# Display Response
 print(response.content)
 
 
