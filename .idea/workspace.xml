@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea30c33c-5ef0-41e1-9c85-b34ca3855823" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/POST_Request/Update.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/POST_Request/Create.py" beforeDir="false" afterPath="$PROJECT_DIR$/POST_Request/Create.py" afterDir="false" />
     </list>
@@ -43,14 +44,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/POST_Request/Create.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+            <state relative-caret-position="68">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/POST_Request/Update.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -75,6 +85,7 @@
         <option value="$PROJECT_DIR$/GET_Request/FetchJsonPath.py" />
         <option value="$PROJECT_DIR$/Delete_Request/DeleteUser.py" />
         <option value="$PROJECT_DIR$/POST_Request/Create.py" />
+        <option value="$PROJECT_DIR$/POST_Request/Update.py" />
       </list>
     </option>
   </component>
@@ -117,10 +128,15 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/POST_Request/Create.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/POST_Request/Update.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\russe\PycharmProjects\APITestingWithPython\POST_Request" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -135,7 +151,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Create" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Update" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="APITestingWithPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,7 +164,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POST_Request/Create.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POST_Request/Update.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +184,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593015977393</updated>
-      <workItem from="1593015978956" duration="12039000" />
+      <workItem from="1593015978956" duration="12694000" />
     </task>
     <task id="LOCAL-00001" summary="update GetchUserData.py">
       <created>1593019820347</created>
@@ -198,11 +214,18 @@
       <option name="project" value="LOCAL" />
       <updated>1593027580770</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update Create.py">
+      <created>1593047147655</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593047147655</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12039000" />
+    <option name="totallyTimeSpent" value="12694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="1936" height="1015" extended-state="6" />
@@ -239,10 +262,11 @@
     <MESSAGE value="added FethJsonPath.py" />
     <MESSAGE value="added DeleteUser.py" />
     <MESSAGE value="added Create.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Create.py" />
+    <MESSAGE value="update Create.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Create.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/APITestingWithPython$APITestingWithPython.coverage" NAME="Create Coverage Results" MODIFIED="1593047122061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POST_Request" />
+    <SUITE FILE_PATH="coverage/APITestingWithPython$APITestingWithPython.coverage" NAME="Update Coverage Results" MODIFIED="1593047645030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POST_Request" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/GET_Request/FetchUserData.py">
@@ -271,11 +295,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/POST_Request/Create.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POST_Request/Update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
         </state>
       </provider>
     </entry>

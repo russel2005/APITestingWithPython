@@ -11,12 +11,12 @@ Steps:
 """
 
 #API Url
-url = "https://reqres.in/api/users"
+url = "https://reqres.in/api/users/469"
 
 # REad input Json file
 payload = {
-    "name": "Russel",
-    "job": "SDET"
+    "name": "Russel updated",
+    "job": "SDET updated"
 }
 
 
@@ -31,20 +31,22 @@ def createUser(url, payload):
 
         # res = requests.post(url, data=json.dumps(payload))
         # or
-        res = requests.post(url, json=payload)
+        res = requests.put(url, json=payload)
         print("Status code: " + str(res))
         print("Response Header:")
         print(res.headers.get("Content-Type"))
 
         # Parse response to Json format
         json_response = json.loads(res.text)
+        print(json_response)
 
         # pick id using JSON path
-        id = jsonpath.jsonpath(json_response, "id")
-        print(id[0])
+        name = jsonpath.jsonpath(json_response, "name")
+        print(name)
+        job = jsonpath.jsonpath(json_response, "job")
+        print(job)
 
-
-        if res.status_code != 201:
+        if res.status_code != 200:
             print(f'Falied to send notification "{payload}" to "{url}"')
             print('Response', res.content)
             return False
